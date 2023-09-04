@@ -16,6 +16,7 @@ from datasets.shapenet_data_pc import ShapeNet15kPointClouds
 from model.point_transformer.point_transformer_seg import PointTransformerSeg42
 
 
+# borrow from https://github.com/alexzhou907/PVD
 def rotation_matrix(axis, theta):
     """
     Return the rotation matrix associated with counterclockwise rotation about

@@ -20,6 +20,7 @@ from datasets.shapenet_data_pc import ShapeNet15kPointClouds
 from model.point_transformer.point_transformer_seg import PointTransformerSeg42
 
 
+# borrow from https://github.com/alexzhou907/PVD
 def normal_kl(mean1, logvar1, mean2, logvar2):
     """
     KL divergence between normal distributions parameterized by mean and log-variance.

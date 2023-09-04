@@ -5,6 +5,7 @@ import numpy as np
 from model.point_transformer.point_transformer_blocks import Bottleneck, TransitionDown, TransitionUp, BatchNorm1d_P, Swish
 
 
+# borrow from https://github.com/jxl152/Point-Transformer, and refer to https://github.com/Pointcept/Pointcept
 class PointTransformerSeg(nn.Module):
 
     def __init__(self, block, enc_blocks, dec_blocks, in_channels, num_classes, embed_dim, stride, nsample, global_pooling):

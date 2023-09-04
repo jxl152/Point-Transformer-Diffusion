@@ -6,6 +6,7 @@ import numpy as np
 import einops
 
 
+# borrow from https://github.com/jxl152/Point-Transformer, and refer to https://github.com/Pointcept/Pointcept
 class Swish(nn.Module):
     def forward(self, x):
         return x * torch.sigmoid(x)
