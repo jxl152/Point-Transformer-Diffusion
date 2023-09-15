@@ -2,7 +2,7 @@
 
 Point Transformer Diffusion (PTD) integrates the standard [DDPM](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html), adapted for 3D data, 
 with [Point Transformer](https://openaccess.thecvf.com/content/ICCV2021/html/Zhao_Point_Transformer_ICCV_2021_paper.html?ref=https://githubhelp.com), a local self-attention network specifically designed for 3D point clouds.
-- **TBD**: the link to my master's thesis.
+- Thesis report: [3D Shape Generation through Point Transformer Diffusion](https://odr.chalmers.se/items/def57c0b-8918-4f80-968c-9b1bfda56433). 
 - It achieved outstanding results in the unconditional shape generation task on the ShapeNet dataset.
 
 ## Requirements
